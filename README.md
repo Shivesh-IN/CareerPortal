@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# 🚀 NUCareer Portal - Complete Redesign v2.0
 
 ## 📋 Project Overview
@@ -424,3 +425,6 @@ Your NUCareer portal is now a **modern, beautiful, interactive, and fully animat
 ---
 
 **Enjoy your redesigned NUCareer Portal!** 🚀✨
+=======
+# CareerPortal
+>>>>>>> ec267ff83d41fc1dc4e77a1b1f3b070b3bd3e0d9
