@@ -1,0 +1,128 @@
+
+> nucareer-frontend@1.0.0 dev
+> next dev
+
+   Γû▓ Next.js 14.1.0
+   - Local:        http://localhost:3000
+   - Environments: .env.local
+
+ Γ£ô Ready in 7.9s
+ Γùï Compiling / ...
+ Γ£ô Compiled / in 1889ms (491 modules)
+ Γ£ô Compiled in 145ms (251 modules)
+ Γ£ô Compiled /community in 257ms (483 modules)
+ Γ£ô Compiled /profile in 171ms (491 modules)
+ Γùï Compiling /interview ...
+ Γ£ô Compiled /interview in 586ms (677 modules)
+ Γ£ô Compiled /mock-interview in 213ms (683 modules)
+ Γ£ô Compiled /api/mock-interview in 134ms (388 modules)
+ Γ£ô Compiled in 418ms (684 modules)
+ Γ£ô Compiled in 189ms (684 modules)
+ Γ£ô Compiled in 211ms (684 modules)
+ Γ£ô Compiled in 341ms (684 modules)
+ Γ£ô Compiled in 246ms (684 modules)
+ Γ£ô Compiled in 175ms (684 modules)
+ Γ£ô Compiled in 172ms (684 modules)
+ Γ£ô Compiled in 188ms (684 modules)
+ Γ£ô Compiled in 176ms (684 modules)
+ Γ£ô Compiled in 165ms (684 modules)
+ Γ£ô Compiled in 84ms (314 modules)
+ Γ£ô Compiled in 92ms (314 modules)
+ Γ£ô Compiled in 81ms (670 modules)
+ Γ£ô Compiled in 79ms (314 modules)
+ Γ£ô Compiled in 290ms (684 modules)
+ Γ£ô Compiled in 196ms (684 modules)
+ Γ£ô Compiled in 306ms (684 modules)
+ Γ£ô Compiled in 290ms (684 modules)
+ Γ£ô Compiled /api/live-interview-analysis in 261ms (375 modules)
+ Γ£ô Compiled /register in 191ms (681 modules)
+Live Interview Analysis Error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async globalThis.fetch (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57569)
+    at async makeRequest (webpack-internal:///(rsc)/./node_modules/@google/generative-ai/dist/index.mjs:377:20)
+    at async generateContent (webpack-internal:///(rsc)/./node_modules/@google/generative-ai/dist/index.mjs:820:22)
+    at async POST (webpack-internal:///(rsc)/./app/api/live-interview-analysis/route.js:145:24)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:63809
+    at async eU.execute (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:53964)
+    at async eU.handle (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:65062)
+    at async doRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1333:42)
+    at async cacheEntry.responseCache.get.routeKind (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1555:28)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1463:28)
+    at async DevServer.renderPageComponent (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1856:24)
+    at async DevServer.renderToResponseImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1894:32)
+    at async DevServer.pipeImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\next-server.js:271:17)
+    at async DevServer.handleRequestImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:807:17)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:331:20
+    at async Span.traceAsyncFn (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\trace\trace.js:151:20)
+    at async DevServer.handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:328:24)
+    at async invokeRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:342:24)
+    at async requestHandlerImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.requestListener (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\start-server.js:140:13)
+ Γ£ô Compiled in 227ms (695 modules)
+ Γ£ô Compiled /login in 285ms (696 modules)
+ Γ£ô Compiled in 225ms (318 modules)
+ Γ£ô Compiled /api/auth/google-signin in 157ms (400 modules)
+Google Sign-In API error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async globalThis.fetch (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57569)
+    at async POST (webpack-internal:///(rsc)/./app/api/auth/google-signin/route.js:19:26)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:63809
+    at async eU.execute (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:53964)
+    at async eU.handle (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:65062)
+    at async doRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1333:42)
+    at async cacheEntry.responseCache.get.routeKind (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1555:28)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1463:28)
+    at async DevServer.renderPageComponent (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1856:24)
+    at async DevServer.renderToResponseImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1894:32)
+    at async DevServer.pipeImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\next-server.js:271:17)
+    at async DevServer.handleRequestImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:807:17)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:331:20
+    at async Span.traceAsyncFn (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\trace\trace.js:151:20)
+    at async DevServer.handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:328:24)
+    at async invokeRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:342:24)
+    at async requestHandlerImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.requestListener (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\start-server.js:140:13) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+Google Sign-In API error: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async globalThis.fetch (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:57569)
+    at async POST (webpack-internal:///(rsc)/./app/api/auth/google-signin/route.js:19:26)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:63809
+    at async eU.execute (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:53964)
+    at async eU.handle (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:6:65062)
+    at async doRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1333:42)
+    at async cacheEntry.responseCache.get.routeKind (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1555:28)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1463:28)
+    at async DevServer.renderPageComponent (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1856:24)
+    at async DevServer.renderToResponseImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:1894:32)
+    at async DevServer.pipeImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\next-server.js:271:17)
+    at async DevServer.handleRequestImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\base-server.js:807:17)
+    at async D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:331:20
+    at async Span.traceAsyncFn (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\trace\trace.js:151:20)
+    at async DevServer.handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\dev\next-dev-server.js:328:24)
+    at async invokeRender (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:342:24)
+    at async requestHandlerImpl (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.requestListener (D:\FILES\FINAL FRONTEND\nucareer-frontend-A5 edit\frontend\node_modules\next\dist\server\lib\start-server.js:140:13) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+ Γ£ô Compiled /dashboard in 361ms (726 modules)
