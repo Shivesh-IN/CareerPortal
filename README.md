@@ -79,10 +79,4 @@ See [FOLDER_STRUCTURE.md](./FOLDER_STRUCTURE.md) for detailed project organizati
 
 - **GitHub:** https://github.com/Shivesh-IN/CareerPortal
 
-## 📝 License
 
-MIT License - Free to use and modify.
-
----
-
-**Made with ❤️ by the NUCareer team**
